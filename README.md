@@ -2,7 +2,7 @@
 
 Esse é o resumo do curso da Alura chamado **"JS na Web: CRUD com JavaScript Assíncrono"**. Para acessar o curso, basta clicar no [link aqui](https://cursos.alura.com.br/course/javascript-crud-assincrono).
 
-O curso abordou o fundamento do **REST API** e demonstrou como o **Fetch** substituiu o **XMLHttpRequest**. No entanto, algumas melhorias podem ser implementadas, como a utilização de **async/await** e **try/catch** para tratar erros. Esta é a meta para a fixação de conhecimento.
+O curso abordou o fundamento do **REST API** e demonstrou como o **Fetch** substituiu o **XMLHttpRequest**. Assim, estou consolidando tudo que foi feito no curso, com essee projeto, totalmente zero.
 
 O **HTML** e **CSS** foram fornecidos pelo professor, e a renderização dos mesmos pode ser vista abaixo:
 
