@@ -19,7 +19,7 @@ const createClient = (nome, email) => {
   });
 };
 
-export const clientServer = {
+export const clientServerExport = {
   getDade,
   createClient,
 };

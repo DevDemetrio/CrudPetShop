@@ -1,4 +1,4 @@
-import { clientServer } from "../service/clienteServer/clienteServer.js";
+import { clientServerExport } from "../service/clienteServer/cliente_server.js";
 const newLine = (nome, email) => {
   const line = document.createElement("tr");
   const content = `
@@ -17,9 +17,17 @@ const newLine = (nome, email) => {
 
 const table = document.querySelector("[data-tabela]");
 
-clientServer.getDade().then((dados) =>
+clientServerExport.getDade().then((dados) => {
+  dados.forEach((element) => {
+    table.appendChild(newLine(element.nome, element.email));
+  });
+});
+
+/*
+clientServerExport.getDade().then((dados) =>
   dados.forEach((element) => {
     console.log(element.nome, element.email);
     table.appendChild(newLine(element.nome, element.email));
   })
 );
+*/
